@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Прокладення мінімального шляху для людини"
+        android:text="@string/minTrackMan"
         android:textAlignment="center"
         android:textSize="18sp"/>
 
@@ -38,7 +38,7 @@
 
     </LinearLayout>
 
-    <ImageView
+    <com.github.chrisbanes.photoview.PhotoView
         android:id="@+id/manImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
