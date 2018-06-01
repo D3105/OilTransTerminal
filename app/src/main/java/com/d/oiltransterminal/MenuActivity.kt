@@ -20,6 +20,8 @@ class MenuActivity: AppCompatActivity() {
         exitButton.setOnClickListener {
             moveTaskToBack(true)
         }
+
+        startActivity(Intent(this, LoginActivity::class.java))
     }
 
     inline fun <reified T> Button.setListenerToStartActivity() {
